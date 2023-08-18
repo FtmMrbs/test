@@ -1,0 +1,9 @@
+20:41:31 INFO  : Registering command handlers for SDK TCF services
+20:41:33 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Acer\ps_flashingLED\ps_flashingLED.sdk\temp_xsdb_launch_script.tcl
+20:41:54 INFO  : XSCT server has started successfully.
+20:41:54 INFO  : Successfully done setting XSCT server connection channel  
+20:41:54 INFO  : Successfully done setting SDK workspace  
+20:41:54 INFO  : Processing command line option -hwspec C:/Users/Acer/ps_flashingLED/ps_flashingLED.sdk/design_1_wrapper.hdf.
+20:47:52 INFO  : Invoking Bootgen: bootgen -image flashingLED_C_Program.bif -arch zynq -o C:\Users\Acer\ps_flashingLED\ps_flashingLED.sdk\flashingLED_C_Program\bootimage\BOOT.bin
+20:47:52 INFO  : Creating new bif file C:\Users\Acer\ps_flashingLED\ps_flashingLED.sdk\flashingLED_C_Program\bootimage\flashingLED_C_Program.bif
+20:47:55 INFO  : Bootgen command execution is done.

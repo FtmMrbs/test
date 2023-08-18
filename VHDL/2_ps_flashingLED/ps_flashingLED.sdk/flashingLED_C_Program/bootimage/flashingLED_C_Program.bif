@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\Acer\ps_flashingLED\ps_flashingLED.sdk\flashingKED_FSBL\Debug\flashingKED_FSBL.elf
+	C:\Users\Acer\ps_flashingLED\ps_flashingLED.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
+	C:\Users\Acer\ps_flashingLED\ps_flashingLED.sdk\flashingLED_C_Program\Debug\flashingLED_C_Program.elf
+}
