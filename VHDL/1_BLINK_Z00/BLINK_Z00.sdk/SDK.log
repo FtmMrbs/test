@@ -1,0 +1,39 @@
+19:31:31 INFO  : Registering command handlers for SDK TCF services
+19:31:33 INFO  : Launching XSCT server: xsct.bat -interactive F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\temp_xsdb_launch_script.tcl
+19:34:34 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+19:34:42 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: SOCKS: Connection refused
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:562)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:62)
+19:34:42 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+19:34:42 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+19:34:42 INFO  : Processing command line option -hwspec F:/TUTORIAL/FPGA/fpga-saghafi/Digital_design/08/BLINK_Z00/BLINK_Z00.sdk/BLINK_Z0_Block_wrapper.hdf.
+19:34:48 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: SOCKS: Connection refused
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:562)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:62)
+19:34:48 ERROR : Failed to openhw "F:/TUTORIAL/FPGA/fpga-saghafi/Digital_design/08/BLINK_Z00/BLINK_Z00.sdk/BLINK_Z0_Block_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+19:34:48 ERROR : Unable to create Hardware Specification Project with specification file: F:/TUTORIAL/FPGA/fpga-saghafi/Digital_design/08/BLINK_Z00/BLINK_Z00.sdk/BLINK_Z0_Block_wrapper.hdf
+19:36:39 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: SOCKS: Connection refused
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:562)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:62)
+19:36:39 ERROR : Failed to openhw "F:/TUTORIAL/FPGA/fpga-saghafi/Digital_design/08/BLINK_Z00/BLINK_Z00.sdk/BLINK_Z0_Block_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+19:42:08 INFO  : Registering command handlers for SDK TCF services
+19:42:08 INFO  : Launching XSCT server: xsct.bat -interactive F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\temp_xsdb_launch_script.tcl
+19:49:51 INFO  : Registering command handlers for SDK TCF services
+19:49:52 INFO  : Launching XSCT server: xsct.bat -interactive F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\temp_xsdb_launch_script.tcl
+19:49:54 INFO  : XSCT server has started successfully.
+19:49:54 INFO  : Successfully done setting XSCT server connection channel  
+19:49:54 INFO  : Successfully done setting SDK workspace  
+19:49:54 INFO  : Processing command line option -hwspec F:/TUTORIAL/FPGA/fpga-saghafi/Digital_design/08/BLINK_Z00/BLINK_Z00.sdk/BLINK_Z0_Block_wrapper.hdf.
+19:55:37 INFO  : Invoking Bootgen: bootgen -image blink_zo_FSBL.bif -arch zynq -o F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\blink_zo_FSBL\bootimage\BOOT.bin
+19:55:37 INFO  : Creating new bif file F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\blink_zo_FSBL\bootimage\blink_zo_FSBL.bif
+19:55:39 INFO  : Bootgen command execution is done.

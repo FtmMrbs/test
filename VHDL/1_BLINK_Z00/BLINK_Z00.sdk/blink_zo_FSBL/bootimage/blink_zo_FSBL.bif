@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\blink_zo_FSBL\Debug\blink_zo_FSBL.elf
+	F:\TUTORIAL\FPGA\fpga-saghafi\Digital_design\08\BLINK_Z00\BLINK_Z00.sdk\BLINK_Z0_Block_wrapper_hw_platform_1\BLINK_Z0_Block_wrapper.bit
+}

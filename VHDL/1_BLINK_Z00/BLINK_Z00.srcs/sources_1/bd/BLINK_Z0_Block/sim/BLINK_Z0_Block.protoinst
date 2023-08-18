@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"BLINK_Z0_Block": {
+			"proto_instances": {
+			}
+		}
+	}
+}
